@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        
+            <img class="slide" src="https://picsum.photos/id/229/1400/650" alt="">
+            <img class="slide" src="https://picsum.photos/id/231/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/243/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/233/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/234/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/235/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/236/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/237/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/238/1400/650" alt="">     
+            <img class="slide" src="https://picsum.photos/id/239/1400/650" alt="">
+
+        <button class="arrow prev"><i class='fas fa-angle-left'></i></button>
+        <button class="arrow next"><i class='fas fa-angle-right'></i></button>
+        
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+            </div>
+    </main>
     
+    <script src="app.js"></script>
 </body>
 </html>
